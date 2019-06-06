@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import classes from './burguerIngredient.module.css'
 
@@ -33,6 +34,10 @@ const burguerIngredient = props => {
             ingredient = null
     }
     return ingredient
+}
+
+burguerIngredient.propType = {
+    type: PropTypes.string.isRequired
 }
 
 export default burguerIngredient
