@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Aux from '../../hoc/AuxComp'
 import Burger from '../../components/Burger/Burger'
 
-class BurguerBuilder extends Component {
+class BurgerBuilder extends Component {
     
     render() {
         return (
@@ -15,4 +15,4 @@ class BurguerBuilder extends Component {
     }
 }
 
-export default BurguerBuilder
+export default BurgerBuilder
